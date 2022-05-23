@@ -1,0 +1,23 @@
+@import './partials/variabili';
+
+
+main {
+    background-color: $background-dark;
+    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    h3{
+        color: #fff;
+    }
+}
+.card {
+    width: calc((100% / 6) -10px);
+    }
+
+
+.img-fumetto {
+    width: 100%;
+}

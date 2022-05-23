@@ -1,0 +1,97 @@
+.bg-blue {
+  background-color: #0282f9;
+}
+
+.t-white {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.t-white h5 {
+  text-transform: uppercase;
+  margin-right: 100px;
+}
+
+.hero-bg {
+  background-image: url("/images/jumbotron.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vh;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: end;
+}
+
+.container button {
+  margin-top: 250px;
+  padding: 10px;
+  background-color: #0282f9;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.bg-blue {
+  background-color: #0282f9;
+}
+
+.t-white {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.t-white h5 {
+  text-transform: uppercase;
+  margin-right: 100px;
+}
+
+.container {
+  padding: 20px 0;
+  width: 80%;
+  margin: 0 auto;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  color: #0282f9;
+  display: block;
+}
+
+ul li h4 {
+  padding: 0 30px;
+  display: flex;
+  border-bottom: 2px solid #0282f9;
+}
+
+.active {
+  color: #0282f9;
+  display: block;
+}
+
+.fa-magnifying-glass {
+  margin: 0 5px;
+}
+

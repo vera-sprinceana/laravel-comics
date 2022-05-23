@@ -1,0 +1,14 @@
+@import './partials/variabili';
+.bg-blue{
+    background-color: $background-blue;
+}
+.t-white{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    h5{
+        text-transform: uppercase;
+         margin-right: 100px;
+    }
+}
+
