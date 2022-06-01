@@ -12,12 +12,26 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+//  Route::get('/', function () {
+//     return view('home');
+//  });
 
-Route::get('/', function () {
-     include ('../config/comics.php');
-     $data=[
-         'fumetto' =>$fumetti
-     ];
-    return view('home', $data);
+
+Route::get('/index', function () {
+     $fumetti=config('comics');
    
-});
+    return view('layouts.index', compact('fumetti'));
+  
+})->name('index');
+
+Route::get('/show{id}', function ($id) {
+   $fumetti=config('comics');
+   if(is_numeric($id)) {
+      $fumetto=$fumetti[$id];
+      return view('layouts.show', compact('fumetto'));
+   }else {
+      abort(404);
+   }
+  
+
+})->name('show');
